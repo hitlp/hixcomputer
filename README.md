@@ -11,7 +11,7 @@ The choice of the 6502 processor was strategic for several reasons. It has ample
 
 This project was based on the excellent work done by http://www.grappendorf.net.
 
-Documentation: http://6502.org
+Manuals and forum: http://6502.org
 
 My personal e-mail: henrique.hit@gmail.com
 
