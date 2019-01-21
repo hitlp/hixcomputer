@@ -1,0 +1,15 @@
+ca65 V2.17 - Debian 2.17-1
+Main file   : kernel.s
+Current file: kernel.s
+
+000000r 1                         .setcpu "6502"
+000000r 1                         .segment "VECTORS"
+000000r 1               
+000000r 1  rr rr                  .word   loop
+000002r 1  rr rr                  .word   loop
+000004r 1  rr rr                  .word   loop
+000006r 1               
+000006r 1                         .code
+000000r 1  A9 12        loop:     lda #$12
+000002r 1  4C rr rr               jmp loop
+000002r 1               
